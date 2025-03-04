@@ -13,7 +13,7 @@
             <img id="watermap" src="https://cdn.glitch.global/74018648-0b9e-4763-ac2d-316d83375937/watermapnormalmap.jpg?v=1740592357453">
             <a-asset-item id="Project1" src="https://cdn.glitch.me/74018648-0b9e-4763-ac2d-316d83375937/Project1.obj?v=1740587781016"></a-asset-item>
             <video id="myVideo" src="https://cdn.glitch.me/74018648-0b9e-4763-ac2d-316d83375937/Untitled%20Project.mov?v=1740589264118"></video>
-            <a-asset-item id="flower.gltf" src="https://cdn.glitch.global/74018648-0b9e-4763-ac2d-316d83375937/flower.gltf?v=1740557165202"></a-asset-item>       
+            <a-asset-item id="flowers.obj" src="https://storage.googleapis.com/aframedemo/flowers.obj"></a-asset-item>       
 </a-assets>
            <!-- Lights -->
         <a-light type="ambient" intensity="1.5"></a-light>
@@ -51,17 +51,14 @@
           position="-7 0 -11"
           scale="3.5 4 4"
           rotation="-2 -320 1"> 
-              <a-entity gltf-model="#flower.gltf"
+              <a-entity gltf-model="#flowers.obj"
           position="0 1 -5"
           scale="2 2 2"
           rotation="0 180 0"
           material="color: red"                           
           shadow="cast: true; receive: true;">
 </a-entity>
-</a-entity>
-           
-          
-        
+</a-entity>   
         
           <!-- Sunset Sky -->
         <a-sky color="#eeaf61"></a-sky>
